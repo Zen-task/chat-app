@@ -1,5 +1,6 @@
 require 'rails_helper'
 
+<<<<<<< Updated upstream
 RSpec.describe 'チャットルームの削除機能', type: :system do
   before do
     @room_user = FactoryBot.create(:room_user)
@@ -25,3 +26,12 @@ RSpec.describe 'チャットルームの削除機能', type: :system do
     expect(page).to have_current_path(root_path)
   end
 end
+=======
+RSpec.describe "Rooms", type: :system do
+  before do
+    driven_by(:rack_test)
+  end
+
+  pending "add some scenarios (or delete) #{__FILE__}"
+end
+>>>>>>> Stashed changes
