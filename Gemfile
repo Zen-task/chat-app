@@ -54,13 +54,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'faker'
-<<<<<<< Updated upstream
-  gem 'capybara'  # Capybaraを追加
-  gem 'selenium-webdriver'  # Selenium WebDriverを追加
-=======
   gem 'capybara'
   gem 'selenium-webdriver'
->>>>>>> Stashed changes
 end
 
 group :development do
@@ -78,7 +73,4 @@ gem 'devise'
 gem 'pry-rails'
 
 gem 'mini_magick'
-<<<<<<< Updated upstream
 gem 'image_processing', '~> 1.2'
-=======
->>>>>>> Stashed changes
